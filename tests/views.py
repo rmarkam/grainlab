@@ -14,7 +14,9 @@ def getResponseData(test: GrainTest):
         "quantity": test.quantity,
         "unit": test.unit,
         "notes": test.notes,
-        "infestation_days": test.infestation_days,
+        "good_grain_count": test.good_grain_count,
+        "bad_grain_count": test.bad_grain_count,
+        "total_grain_count": test.total_grain_count,
         "supplier_details": {
             "supplier_name": test.supplier_name,
             "supplier_country": test.supplier_country,
